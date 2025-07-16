@@ -146,4 +146,16 @@ It ensures the software's quality attributes are met.
 ## 32. What is Gorilla Testing?
 **Gorilla Testing** is an intense testing technique where one module or functionality is tested thoroughly and repeatedly with varied inputs to ensure robustness. It is a type of manual testing done to break the application through brute force testing.
 
+## 33. Difference Between Priority and Severity
+
+| **Aspect**                         | **Severity**                                      | **Priority**                                      |
+|------------------------------------|--------------------------------------------------|---------------------------------------------------|
+| **Definition**                     | Impact of the bug on functionality               | Urgency to fix the bug                            |
+| **Focus**                          | Technical aspect (how bad the defect is)         | Business aspect (how soon it should be fixed)     |
+| **Set By**                         | Usually by tester                                | Usually by client, BA, or project manager         |
+| **Example (High Severity, Low Priority)** | App crashes only on clicking a rarely used feature | Can be fixed later as it doesn’t impact daily users |
+| **Example (Low Severity, High Priority)** | Typo in company name on homepage                 | Needs urgent fix though it doesn't break anything |
+
+
+
 
